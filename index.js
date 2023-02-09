@@ -55,7 +55,7 @@ for(let oscar of btnM){
 
     for( let i=0 ; i< priceUnitaire.length; i++){
 
-        sum+=quantity[i].innertext*priceUnitaire[i].innerText
+        sum+=quantity[i].innerText*priceUnitaire[i].innerText
        document.getElementById('totprice').innerText= sum      
     }
   }
